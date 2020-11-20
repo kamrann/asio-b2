@@ -1,6 +1,6 @@
 : 1
 name: asio
-version: 1.18.0-a.1
+version: 1.18.0-a.2
 upstream-version: 1.18.0
 summary: asio C++ library
 license: other: proprietary ; Not free/open source.

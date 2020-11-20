@@ -14,7 +14,7 @@ lib{asio}:
 # Install into the asio/ subdirectory of, say, /usr/include/
 # recreating subdirectories.
 #
-upstream/asio/include
+upstream/asio/include/
 {
   {hxx}{*}:
   {
