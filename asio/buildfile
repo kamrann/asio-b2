@@ -8,7 +8,7 @@ cxx.poptions =+ "-I$out_base" "-I$src_base/upstream/asio/include"
 #
 lib{asio}:
 {
-  cxx.export.poptions = "-I$out_root" "-I$src_root"
+  cxx.export.poptions = "-I$out_root" "-I$src_root/upstream/asio/include"
 }
 
 # Install into the asio/ subdirectory of, say, /usr/include/
