@@ -1,0 +1,13 @@
+: 1
+name: asio
+version: 1.18.0-a.1
+upstream-version: 1.18.0
+summary: asio C++ library
+license: other: proprietary ; Not free/open source.
+description-file: README.md
+url: https://github.com/chriskohlhoff/asio
+package-url: https://github.com/kamrann/asio-b2
+email: cjangus@gmail.com
+
+depends: * build2 >= 0.13.0
+depends: * bpkg >= 0.13.0

@@ -1,0 +1,24 @@
+lib{asio}: {hxx}{upstream/asio/include/**}
+
+# Build options.
+#
+cxx.poptions =+ "-I$out_base" "-I$src_base/upstream/asio/include"
+
+# Export options.
+#
+lib{asio}:
+{
+  cxx.export.poptions = "-I$out_root" "-I$src_root"
+}
+
+# Install into the asio/ subdirectory of, say, /usr/include/
+# recreating subdirectories.
+#
+upstream/asio/include
+{
+  {hxx}{*}:
+  {
+    install         = include/
+    install.subdirs = true
+  }
+}
