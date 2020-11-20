@@ -1,4 +1,4 @@
-lib{asio}: {hxx}{upstream/asio/include/**}
+lib{asio}: {hxx ixx}{upstream/asio/include/**}
 
 # Build options.
 #
@@ -16,7 +16,7 @@ lib{asio}:
 #
 upstream/asio/include/
 {
-  {hxx}{*}:
+  {hxx ixx}{*}:
   {
     install         = include/
     install.subdirs = true
